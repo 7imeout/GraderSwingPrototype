@@ -61,7 +61,7 @@ public class DeleteStudentUI extends JDialog {
 		setDefaultCloseOperation(DISPOSE_ON_CLOSE);
     }
 
-    public static void showAddStudentUI() {  
+    public static void showDeleteStudentUI() {
         DeleteStudentUI catFrame = new DeleteStudentUI();
         catFrame.setVisible(true);
     }
