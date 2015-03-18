@@ -32,7 +32,7 @@ public class DeleteStudentUI extends JDialog {
 		addStudentButton.setBounds(0, 0, 80, 30);
 		addStudentButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
-			   System.exit(0);
+            dispose();
 			}
 		});
 
@@ -42,7 +42,7 @@ public class DeleteStudentUI extends JDialog {
 		cancelButton.setBounds(0, 0, 80, 30);
 		cancelButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent event) {
-			   System.exit(0);
+            dispose();
 			}
 		});
 
